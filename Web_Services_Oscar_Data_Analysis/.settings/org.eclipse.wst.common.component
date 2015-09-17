@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Web_Services_Oscar_Data_Analysis">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="genericdao-2.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/genericdao-2.0.2/genericdao-2.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.8/commons-codec-1.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.14-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.14-bin/mysql-connector-java-5.1.14-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpmime-4.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpmime-4.3/httpmime-4.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="standard-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard-1.1.2/standard-1.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.annotation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.annotation/javax.annotation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.0.1/jackson-annotations-2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-json.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/java-json/java-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="http-core-4.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/http-core-4.1/http-core-4.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.0.1/jackson-core-2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.0.1/jackson-databind-2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.1.2/jstl-1.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="formbeanfactory-2.1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/formbeanfactory-2.1.0/formbeanfactory-2.1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/Web_Services_Oscar_Data_Analysis/build/classes"/>
+        <property name="context-root" value="Web_Services_Oscar_Data_Analysis"/>
+    </wb-module>
+</project-modules>
